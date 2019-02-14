@@ -2,32 +2,29 @@
 {
 	margin: 0;
 	padding: 0;
-}
-
-header
-{
 	background-image: url();
 	height: 100vh;
 	background-size: cover;
-	background-
+	background-position: center;
 }
 
+header
 
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
 
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
 
 body {
   background-color: pink;
 }
+
 a{
   text-decoration: none;
 }
-#wrapper {
-max-width: 940px;
-margin: 0 auto;
-padding: 0 5%;
-}
 
-#Logo {
-text-align: center;
-margin: 0;
-}

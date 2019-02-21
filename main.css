@@ -21,6 +21,7 @@ h2 {
 
 body {
   background-color: pink;
+  background-image: src="images/headshot" alt="logo";
 }
 
 a{

@@ -154,13 +154,6 @@ a.social {
   transition: all .25s;
 }
 
-.fa {
-    width: 28px;
-    margin-right: 10px;
-    font-size: 18px;
-    text-align: center;
-    color: #ff5a00;
-}
 a.twitter {
   background-image: url(images/twitter.svg);
 }

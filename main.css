@@ -41,6 +41,7 @@ a:hover {
 }
 .nav .name {
   display: none;
+
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -94,8 +95,8 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: center;
-  background: #ccc;
-  border-bottom: 4px solid #ccc;
+  background: white;
+  border-bottom: 4px solid purple;
   border-radius: 6px;
 }
 .card:hover {

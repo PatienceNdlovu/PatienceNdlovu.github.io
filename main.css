@@ -95,7 +95,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: center;
-  background: white;
+  background: blue;
   border-bottom: 4px solid purple;
   border-radius: 6px;
 }

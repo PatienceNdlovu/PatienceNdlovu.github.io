@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: url(images/bg.jpg) no-repeat top center;
 }
 /* Link Styles */
 
@@ -50,6 +50,10 @@ a:hover {
 }
 .nav a:hover {
   color: red;
+}
+
+img {
+  vertical-align: baseline;
 }
 
 header {

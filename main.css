@@ -120,7 +120,7 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 10px;
+  padding: 20px 0 40px 20px;
   position: fixed;
   background: pink;
 }

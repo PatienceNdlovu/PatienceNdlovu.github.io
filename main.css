@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background-image: : url("images/bg.jpg") no-repeat top center;
+  background-image:  url("images/bg.jpg") no-repeat top center;
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: pink;
+  background-color: pink;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -120,9 +120,8 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
-  position: fixed;
-  background: pink;
+  padding: 20px 0px 40px 0px;
+  background-color: pink;
 }
 
 footer .copyright {

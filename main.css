@@ -53,10 +53,6 @@ a:hover {
   color: red;
 }
 
-img {
-  vertical-align: baseline;
-}
-
 header {
   text-align: center;
   background: url(images/bg.jpg) no-repeat top center;
@@ -124,7 +120,8 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 10px;
+  position: fixed;
   background: pink;
 }
 

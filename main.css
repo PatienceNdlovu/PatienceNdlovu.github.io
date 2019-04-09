@@ -65,7 +65,7 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -88,9 +88,9 @@ header .profile-image:hover {
   color: black;
 }
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
+  /*padding: 20px 40px 40px;*/
+  max-width: 75%;
+  margin-bottom: 20px;
   text-align: center;
   background: #ccc;
   border-bottom: 4px solid purple;
@@ -121,12 +121,13 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: pink;
   
 }
 
 footer .copyright {
-  top: -8px;
   margin-right: 20px;
   font-size: .75em;
 }
@@ -173,13 +174,12 @@ a.social:hover {
   
   .flex {
       display: flex;
-      max-width: 1200px;
       justify-content: space-around;
       margin: 0 auto;
   }
 
   header {
-    min-height: 450px;
+    /*min-height: 450px;*/
   }
 
   .nav {
@@ -193,7 +193,7 @@ a.social:hover {
   }
 
   main {
-    padding-top: 50px;
+    /*padding-top: 50px;*/
   }
 
   main p {
@@ -202,8 +202,7 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
+    
   }
 
 }

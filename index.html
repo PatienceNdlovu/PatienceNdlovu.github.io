@@ -1,50 +1,136 @@
-<!doctype html>
-<html lang="en">
- <head>
-  <meta charset="utf-8">
-  <title>Patience Ndlovu</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
- </head>
-<body>
-  <div class="main-nav">
-    <ul class="nav">
-        <li class="name">Patience Ndlovu</li>
-        <li><a href="#">Home</a></li>
-        <li><a href="resume.html">Patience's CV</a></li>
-        <li><a href="http://patience.wdan.uk/blog/">Portfolio</a></li>
-        <li><a href="http://patience.wdan.uk/contact-us/">Contact</a></li>
-    </ul>
-  </div>
-  <header>
-      <img src="images/me.jpg" alt="" class="profile-image">
-      <h1 class="tag name">Hello, I'm Patience.</h1>
-      <p class="tag location">Junior Web Developer.</p>
-  </header>
-  <main class="flex">
-      <div class="card">
-        <h2>Goals</h2>
-        <p>I have just retrained from being an ex Royal Navy Supply Chain Manager to a Junior Web developer who wants to master the process of building web sites while increasing my knowledge, skills and abilities in:</p>
-          <ul class="skills">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>WordPress</li>
-         </ul>
-        <p>I’d like to work as a front-end developer and help clients create amazing websites for their organizations.Considered an effective team leader I deliver solutions to high standards, supporting teams by leading by example and mentoring junior members, resulting in time and task management that deliver objectives to meet the needs of the business and its customers. Regarded as a superb communicator that strives to get the best out of a team by encouraging professional development and building relationships to support results through effective liaison.
+<!DOCTYPE html>
+<html lang="en-UK">
+    <head>
+    <link rel="stylesheet" href="portfolio2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Patience Portfolio Website</title>
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"-->
+    <!--Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" / -->  
+        
+        <!-- Update these with your own fonts -->
+        <!--link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet" -->
+        
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#services" class="nav_link">My Work</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About Me</a></li>
+                    <li class="nav_item"><a href="#work" class="nav_link">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section_title section_title_intro">
+            Hi, I am <strong>Patience</strong>
+        </h1>
+        <p class="section_subtitle section_subtitle_intro">Software Test Analyst</p>
+        <img src="images/patience.JPG" alt=" a picture of Patience in La Coruna" class="intro_img" height="400" width="400">
+        </section>
 
-</p>
-      </div> 
-  </main>
-  <footer>
-      <ul>
-        <li><a href="#" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
-        <li class="copyright">&copy; 2019 Patience Ndlovu.</li>
-      </ul>
-  </footer>
-  </body>
-  </html>
+        <!--My Services-->
+        <section class="my-services" id="services">
+            <h2 class="section_title section_title_services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3></h3>
+                    <p>I am working for a great company as a Software Test Analyst. I have been teaching myself how to code using
+                        a range of online resources such as FreeCodeCamp.</p>
+                </div>
+                <div class="service">
+                    <h3></h3>
+                    <p>On a daily basis I am conducting test activities using manual methods as well as writing test 
+                        automation scripts in Java on IntelliJ. I am getting better with Jenkins however I still need more practice 
+                    with GitLab and Github</p>
+                </div>
+                <div class="service">
+                    <h3></h3>
+                    <p>When I am not at work I like working with children so I volunteer with Year 3-Year 6 at my local church
+                        where we teach, play games and support each other.I am also involved with a local charity that is 
+                    working to end child poverty and ensure children do not go hungry over the school holidays.</p>
+                </div>
+            </div>
+            <a href="#work" class="btn">My Projects</a>
+        </section>
+        <!--About me Section-->
+        <section class="about-me" id="about">
+            <h2 class="section_title section_title_about">Who I am</h2>
+            <p class="section_subtitle section_subtitle_about"></p>
+
+            <div class="about-me_body">
+                <p>I have been working in the Tech Industry since May 2018 after i decided to cross 
+                    train from an amazing career in Logistics Management in the Royal Navy. 
+                    I served in the military for nearly 10yrs. I decided I wanted to take a risk and learn start
+                again in an industry I have always been passionate about.</p>
+                <p>I believe the fact that I decided to invest in my personal development helped me secure employment in this 
+                    industry. If you are willing to learn then this will not be difficult for you. There are so many online resources you 
+                     can use, talk to your superiors, get yourself a mentor or sponsor. At times you will have to make 
+                     sacrifices to study but if you are doing something that you really enjoy then it’s not really a 
+                     sacrifice. I use the 100days of code challenge to learn something  for myself and am motivated 
+                     to keep going even on the “bad code days” when I am getting errors and I don’t know why.
+                </p>
+            </div>
+            <img src="images/me3.jpg" alt=" a picture of Patience in La Coruna" class="about-me_img">
+        </section>
+        <!--My Work-->
+        <section class="my-work" id="work">
+            <h2 class="section_title">My Projects</h2>
+            <p class="section_subtitle"></p>
+
+            <div class="portfolio">
+                <a href="Portfolio-item.html" class="portfolio_item">
+                    <img src="images/tribute3thumb.jpg" alt="" class="portfolio_img" height="400px">
+                </a>
+            </div>
+            <div class="portfolio">
+                <a href="Portfolio-item.html" class="portfolio_item">
+                    <img src="images/cvthumb.jpg" alt="" class="portfolio_img" height="400px">
+                </a>
+            </div>
+            <div class="portfolio">
+                <a href="Portfolio-item.html" class="portfolio_item">
+                    <img src="images/productthumb.jpg" alt="" class="portfolio_img" height="400px">
+                </a>
+            </div>
+            <div class="portfolio">
+                <a href="Portfolio-item.html" class="portfolio_item">
+                    <img src="images/blogthumb.jpg" alt="" class="portfolio_img" height="400px" width="350px">
+                </a>
+            </div>
+            <div class="portfolio">
+                <a href="Portfolio-item.html" class="portfolio_item">
+                    <img src="images/restaurant.jpg" alt="" class="portfolio_img" height="400px" width="350px">
+                </a>
+            </div>
+            <div class="portfolio">
+                <a href="Portfolio-item.html" class="portfolio_item">
+                    <img src="images/Technical Page.jpg" alt="" class="portfolio_img" height="400px" width="350px">
+                </a>
+            </div>
+        </section>
+        <footer>
+            <!---->
+            <!--a href="mailto:pat_ndlovu@outlook.com" class="footer_link">pat_ndlovu@outlook</a-->
+            <ul class="social-list">
+               <li class="social-list_item"><a class="social-list_link" href=""><img src="images/twitter.svg" alt="Twitter" height="40"></a></li>
+               <li class="social-list_item"><a class="social-list_link" href=""><img src="images/linkedin.svg" alt="Linkedln" height="40"></a></li>
+               <li class="social-list_item"><a class="social-list_link" href="https://github.com/login"><img src="images/github.svg" alt="Github" height="40"></a></li>
+               <!--li class="social-list_item"><a class="social-list_link" href="">Wordpress</a></li-->
+                </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+
+        
+</html>

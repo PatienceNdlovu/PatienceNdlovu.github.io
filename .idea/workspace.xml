@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb5d41e-ea27-446a-9e03-2e1cb6941226" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Round2Challenge/Portfolio2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round2Challenge/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round2Challenge/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round2Challenge/portfolio2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Round2Challenge" />
   </component>
   <component name="ProjectId" id="1cVHBLynEMRFuMWif90Lg2GFFAV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
